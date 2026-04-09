@@ -1,1 +1,2 @@
 # Everything is Plausible: Investigating the Impact of LLM Rationales on Human Notions of Plausibility
+This repository contains the data collected in the paper: [Everything is Plausible: Investigating the Impact of LLM Rationales on Human Notions of Plausibility](https://arxiv.org/abs/2510.08091) presented at [The 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026).](https://2026.aclweb.org)
