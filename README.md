@@ -2,6 +2,14 @@
 This repository contains the data collected in the paper: [Everything is Plausible: Investigating the Impact of LLM Rationales on Human Notions of Plausibility](https://arxiv.org/abs/2510.08091) presented at [The 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026).](https://2026.aclweb.org)
 
 ## Introduction
+We adopt the plausibility rating framework introduced in [Plausibly Problematic Questions in Multiple-Choice Benchmarks for Commonsense Reasoning](https://aclanthology.org/2024.findings-emnlp.198/) which was presented at [The 2024 Conference on Empirical Methods in Natural Language Processing (EMNLP 2024).](https://2024.emnlp.org)
+
+We sample a subset of the the questions used in the above paper and use it as our ``NO Rationale`` setting. We use a LLM to generate ``PRO`` and ``CON`` rationales for or against the plausibility of each answer choice. We then collect 3,000 new human plausibility ratings of answer choices, presented alongside either a ``PRO`` rationale of the answer, a ``CON`` rationale, or both, i.e. ``(PRO+CON)``, as shown in the figure below. 
+
+<p align="center">
+  <img src="example.svg"></img>
+</p>
+
 ## Data
 
 ## License
